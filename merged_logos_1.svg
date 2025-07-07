@@ -1,0 +1,602 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="3000" height="1220">
+  <g transform="translate(10, 20)">
+    <g transform="translate(0, 0)">
+<title>Sequence Logo</title>
+<g id="group0" transform="translate(0, 0)" >
+<text x="0" y="19.698477157360408" fill="green" font-size="30" font-family="Courier" transform="scale(1, 1.5076142131979695)">A</text>
+<text x="0" y="43.061309015767485" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 1.2906091370558377)">C</text>
+<text x="0" y="66.36514382402706" fill="red" font-size="30" font-family="Courier" transform="scale(1, 1.1992385786802031)">T</text>
+<text x="0" y="178.7893862482695" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.5025380710659899)">G</text>
+<text x="20" y="19.696962025316456" fill="red" font-size="30" font-family="Courier" transform="scale(1, 1.5151898734177216)">T</text>
+<text x="20" y="47.40529535864978" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 1.0936708860759494)">C</text>
+<text x="20" y="73.57931496649292" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.9683544303797469)">G</text>
+<text x="20" y="97.22782622284731" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.9227848101265823)">A</text>
+<text x="40" y="19.46073619631902" fill="green" font-size="30" font-family="Courier" transform="scale(1, 2.696319018404908)">A</text>
+<text x="40" y="76.91171658847588" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.9386503067484662)">G</text>
+<text x="40" y="171.38381311939594" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.4785276073619632)">T</text>
+<text x="40" y="232.3178790534619" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 0.38650306748466257)">C</text>
+<text x="60" y="19.175174013921115" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 4.124129930394432)">C</text>
+<text x="60" y="483.8810563668623" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.17749419953596288)">T</text>
+<text x="60" y="705.8418406805878" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.12529002320185614)">A</text>
+<text x="60" y="1230.6037454424927" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.07308584686774941)">G</text>
+<text x="80" y="19.18649885583524" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 4.067505720823799)">G</text>
+<text x="80" y="395.37697504631143" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 0.21624713958810068)">C</text>
+<text x="80" y="659.1864988558352" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.13386727688787187)">T</text>
+<text x="80" y="1091.6864988558352" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.08237986270022883)">A</text>
+<text x="100" y="19.257828810020875" fill="red" font-size="30" font-family="Courier" transform="scale(1, 3.7108559498956155)">T</text>
+<text x="100" y="221.8219313741234" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.3663883089770355)">A</text>
+<text x="100" y="329.25782881002084" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 0.2630480167014614)">C</text>
+<text x="100" y="562.7872405747266" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.15970772442588727)">G</text>
+<text x="120" y="19.262448132780083" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 3.687759336099585)">C</text>
+<text x="120" y="160.33387670420868" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.5228215767634855)">A</text>
+<text x="120" y="583.0124481327802" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.14937759336099585)">T</text>
+<text x="120" y="641.9291147994468" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.1400414937759336)">G</text>
+<text x="140" y="19.22885032537961" fill="green" font-size="30" font-family="Courier" transform="scale(1, 3.855748373101952)">A</text>
+<text x="140" y="323.07500417153346" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.25379609544468545)">G</text>
+<text x="140" y="440.2288503253796" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 0.19522776572668113)">C</text>
+<text x="140" y="460.2288503253796" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.19522776572668113)">T</text>
+<text x="160" y="19.463829787234044" fill="red" font-size="30" font-family="Courier" transform="scale(1, 2.6808510638297873)">T</text>
+<text x="160" y="68.1594819611471" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 1.101063829787234)">C</text>
+<text x="160" y="199.00928433268857" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.42127659574468085)">A</text>
+<text x="160" y="302.6896362388469" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.2968085106382979)">G</text>
+<text x="180" y="19.650236966824643" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 1.7488151658767772)">C</text>
+<text x="180" y="43.5918428062407" fill="green" font-size="30" font-family="Courier" transform="scale(1, 1.4609004739336493)">A</text>
+<text x="180" y="83.69279015831401" fill="red" font-size="30" font-family="Courier" transform="scale(1, 1.0023696682464456)">T</text>
+<text x="180" y="312.2428295594173" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.2879146919431279)">G</text>
+<text x="200" y="19.56860902255639" fill="green" font-size="30" font-family="Courier" transform="scale(1, 2.156954887218045)">A</text>
+<text x="200" y="55.997180451127825" fill="red" font-size="30" font-family="Courier" transform="scale(1, 1.1842105263157894)">T</text>
+<text x="200" y="134.06136264574477" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.5836466165413534)">G</text>
+<text x="200" y="156.0391972578505" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 0.575187969924812)">C</text>
+<text x="220" y="19.71518987341772" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 1.4240506329113924)">C</text>
+<text x="220" y="44.96771512594298" fill="green" font-size="30" font-family="Courier" transform="scale(1, 1.1278481012658228)">A</text>
+<text x="220" y="65.90075688372701" fill="red" font-size="30" font-family="Courier" transform="scale(1, 1.1050632911392406)">T</text>
+<text x="220" y="106.47194663017449" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.8430379746835444)">G</text>
+<text x="240" y="19.733417721518986" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 1.3329113924050633)">C</text>
+<text x="240" y="40.08124380847552" fill="red" font-size="30" font-family="Courier" transform="scale(1, 1.310126582278481)">T</text>
+<text x="240" y="70.16820033021465" fill="green" font-size="30" font-family="Courier" transform="scale(1, 1.0481012658227848)">A</text>
+<text x="240" y="111.00102335532182" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.8088607594936709)">G</text>
+<text x="260" y="19.699240506329115" fill="green" font-size="30" font-family="Courier" transform="scale(1, 1.5037974683544304)">A</text>
+<text x="260" y="45.0838558909445" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 1.1848101265822786)">C</text>
+<text x="260" y="68.3590343207621" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 1.1050632911392406)">G</text>
+<text x="260" y="127.1185953450388" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.7063291139240506)">T</text>
+<text x="280" y="19.733417721518986" fill="red" font-size="30" font-family="Courier" transform="scale(1, 1.3329113924050633)">T</text>
+<text x="280" y="40.441382323288906" fill="green" font-size="30" font-family="Courier" transform="scale(1, 1.287341772151899)">A</text>
+<text x="280" y="64.39361189627627" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 1.1734177215189874)">C</text>
+<text x="280" y="127.15277256022867" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.7063291139240506)">G</text>
+<text x="300" y="19.400759493670886" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 2.9962025316455696)">G</text>
+<text x="300" y="115.03712313003452" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.6265822784810127)">T</text>
+<text x="300" y="154.7199084298411" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.5354430379746835)">A</text>
+<text x="300" y="262.73409282700425" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 0.34177215189873417)">C</text>
+<text x="320" y="19.41044776119403" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 2.9477611940298507)">C</text>
+<text x="320" y="109.18317503392132" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.6567164179104478)">G</text>
+<text x="320" y="159.41044776119404" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.5149253731343284)">T</text>
+<text x="320" y="235.8810359964882" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.3805970149253731)">A</text>
+<text x="340" y="19.242004264392325" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 3.7899786780383797)">G</text>
+<text x="340" y="244.9562899786781" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.33582089552238803)">T</text>
+<text x="340" y="449.24200426439234" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.19189765458422176)">A</text>
+<text x="340" y="492.9262147907082" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 0.18230277185501068)">C</text>
+<text x="360" y="19.565594059405942" fill="green" font-size="30" font-family="Courier" transform="scale(1, 2.172029702970297)">A</text>
+<text x="360" y="54.07886839568912" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 1.2586633663366338)">C</text>
+<text x="360" y="90.37019176055536" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.969059405940594)">T</text>
+<text x="360" y="897.3433718371837" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.10024752475247524)">G</text>
+<text x="380" y="19.317658349328216" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 3.411708253358925)">C</text>
+<text x="380" y="174.2196191336419" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.44049904030710174)">T</text>
+<text x="380" y="231.69861073028056" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.362763915547025)">G</text>
+<text x="380" y="315.07523410690396" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.28502879078694815)">A</text>
+<text x="400" y="19.727557411273487" fill="green" font-size="30" font-family="Courier" transform="scale(1, 1.362212943632568)">A</text>
+<text x="400" y="42.50242652122113" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 1.196242171189979)">G</text>
+<text x="400" y="70.15965617670558" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 1.0146137787056368)">C</text>
+<text x="400" y="96.82215200586808" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.9269311064718163)">T</text>
+<text x="420" y="19.749537366548044" fill="green" font-size="30" font-family="Courier" transform="scale(1, 1.2523131672597865)">A</text>
+<text x="420" y="42.48209550608293" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 1.101779359430605)">C</text>
+<text x="420" y="62.606680223690894" fill="red" font-size="30" font-family="Courier" transform="scale(1, 1.098576512455516)">T</text>
+<text x="420" y="85.68225907908625" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 1.0473309608540926)">G</text>
+</g>
+    </g>
+    <text x="10" y="0" font-size="24" font-family="Courier" fill="black">CGnnnACGT -> NNRCGTCAYHNNNNNNNGHCNN</text>
+<text x="752.0" y="20" font-size="20" font-family="Courier" text-anchor="middle" fill="black">Seed</text>
+<text x="1048.0" y="20" font-size="20" font-family="Courier" text-anchor="middle" fill="black">Background</text>
+<text x="1242.0" y="20" font-size="20" font-family="Courier" text-anchor="middle" fill="black">Signal</text>
+<text x="560.0" y="45" font-size="20" font-family="Courier" text-anchor="start" fill="black">Original: CGnnnACGT</text>
+<text x="1132.0" y="45" font-size="20" font-family="Courier" text-anchor="end" fill="black">40786 (80.31%)</text>
+<text x="1332.0" y="45" font-size="20" font-family="Courier" text-anchor="end" fill="black">56459 (111.17%)</text>
+<text x="560.0" y="70" font-size="20" font-family="Courier" text-anchor="start" fill="black">Refined : NNRCGTCAYHNNNNNNNGHCNN</text>
+<text x="1132.0" y="70" font-size="20" font-family="Courier" text-anchor="end" fill="black">363 (0.71%)</text>
+<text x="1332.0" y="70" font-size="20" font-family="Courier" text-anchor="end" fill="black">1823 (3.59%)</text>
+    <text x="10" y="105" font-size="16" font-family="Courier" fill="gray">refined_model_1_for_seed_CGnnnACGT.pfm</text>
+  </g>
+  <g transform="translate(10, 170)">
+    <g transform="translate(0, 0)">
+<title>Sequence Logo</title>
+<g id="group0" transform="translate(0, 0)" >
+<text x="0" y="19.708645533141212" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 1.456772334293948)">G</text>
+<text x="0" y="40.32026632824824" fill="green" font-size="30" font-family="Courier" transform="scale(1, 1.4135446685878963)">A</text>
+<text x="0" y="75.97983197381917" fill="red" font-size="30" font-family="Courier" transform="scale(1, 1.0201729106628241)">T</text>
+<text x="0" y="147.36822000122632" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 0.6095100864553313)">C</text>
+<text x="20" y="19.519121683440073" fill="green" font-size="30" font-family="Courier" transform="scale(1, 2.4043915827996343)">A</text>
+<text x="20" y="60.215985794938334" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 1.1816102470265324)">G</text>
+<text x="20" y="117.38429022276593" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.7328453796889295)">T</text>
+<text x="20" y="496.3373035016218" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 0.18115279048490393)">C</text>
+<text x="40" y="19.21193656093489" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 3.9403171953255427)">C</text>
+<text x="40" y="208.22094556994392" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.4169449081803005)">T</text>
+<text x="40" y="1073.7573911063894" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.08263772954924875)">A</text>
+<text x="40" y="1496.7119365609349" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.06010016694490818)">G</text>
+<text x="60" y="19.455736491487787" fill="green" font-size="30" font-family="Courier" transform="scale(1, 2.721317542561066)">A</text>
+<text x="60" y="89.8867709742464" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.772760917838638)">T</text>
+<text x="60" y="137.98680993781545" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.5895632864544782)">G</text>
+<text x="60" y="215.61573649148775" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 0.4163582531458179)">C</text>
+<text x="80" y="19.522950819672133" fill="red" font-size="30" font-family="Courier" transform="scale(1, 2.3852459016393444)">T</text>
+<text x="80" y="56.22565352237484" fill="green" font-size="30" font-family="Courier" transform="scale(1, 1.2997658079625292)">A</text>
+<text x="80" y="147.44978008796483" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 0.5761124121779859)">C</text>
+<text x="80" y="376.28765670202506" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.23887587822014053)">G</text>
+<text x="100" y="19.112687969924814" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 4.436560150375939)">G</text>
+<text x="100" y="1632.9588418160786" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.0549812030075188)">T</text>
+<text x="100" y="10639.112687969926" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 0.008458646616541353)">C</text>
+<text x="120" y="19.57131367292225" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 2.14343163538874)">C</text>
+<text x="120" y="40.23022840160442" fill="red" font-size="30" font-family="Courier" transform="scale(1, 2.0750670241286864)">T</text>
+<text x="120" y="319.28559938720804" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.2815013404825737)">A</text>
+<text x="140" y="19.360365853658536" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 3.1981707317073167)">C</text>
+<text x="140" y="107.88357260471338" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.7225609756097562)">T</text>
+<text x="140" y="200.4871264170388" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.4329268292682927)">A</text>
+<text x="140" y="614.3603658536584" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.14634146341463417)">G</text>
+<text x="160" y="19.566143497757846" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 2.1692825112107625)">C</text>
+<text x="160" y="51.49683656706478" fill="red" font-size="30" font-family="Courier" transform="scale(1, 1.358744394618834)">T</text>
+<text x="160" y="141.54288768380437" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.57847533632287)">A</text>
+<text x="160" y="228.28409221570652" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.39349775784753366)">G</text>
+<text x="180" y="19.74003813155386" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 1.2998093422306958)">C</text>
+<text x="180" y="40.35228302951304" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 1.261201143946616)">G</text>
+<text x="180" y="63.31668046732028" fill="green" font-size="30" font-family="Courier" transform="scale(1, 1.1754051477597711)">A</text>
+<text x="180" y="117.6052066708797" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.7635843660629171)">T</text>
+<text x="200" y="19.673444347063977" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 1.6327782646801052)">G</text>
+<text x="200" y="41.69472094280866" fill="green" font-size="30" font-family="Courier" transform="scale(1, 1.4829097283085013)">A</text>
+<text x="200" y="80.67730535092498" fill="red" font-size="30" font-family="Courier" transform="scale(1, 1.0214723926380367)">T</text>
+<text x="200" y="247.71692260793355" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 0.3628396143733567)">C</text>
+<text x="220" y="19.433992805755395" fill="green" font-size="30" font-family="Courier" transform="scale(1, 2.8300359712230216)">A</text>
+<text x="220" y="67.4431461238332" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 1.178956834532374)">G</text>
+<text x="220" y="202.89078292921215" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.4370503597122303)">T</text>
+<text x="220" y="1667.4339928057555" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 0.0539568345323741)">C</text>
+<text x="240" y="19.11435272045028" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 4.428236397748593)">C</text>
+<text x="240" y="2350.2254638315612" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.03799249530956848)">G</text>
+<text x="240" y="2664.11435272045" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.03377110694183865)">T</text>
+<text x="260" y="19.492778649921508" fill="green" font-size="30" font-family="Courier" transform="scale(1, 2.536106750392465)">A</text>
+<text x="260" y="62.87646445052574" fill="red" font-size="30" font-family="Courier" transform="scale(1, 1.1691522762951334)">T</text>
+<text x="260" y="172.63146478130838" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.48390894819466246)">G</text>
+<text x="260" y="289.03823319537605" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 0.3108320251177394)">C</text>
+<text x="280" y="19.504430379746836" fill="red" font-size="30" font-family="Courier" transform="scale(1, 2.477848101265823)">T</text>
+<text x="280" y="69.62788716987029" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.9886980108499096)">A</text>
+<text x="280" y="106.00189230868085" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 0.8015370705244123)">C</text>
+<text x="280" y="387.57460581834334" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.23191681735985534)">G</text>
+<text x="300" y="19.303761061946904" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 3.481194690265487)">G</text>
+<text x="300" y="126.3445773884775" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.6504424778761062)">A</text>
+<text x="300" y="396.57648833467414" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 0.21902654867256638)">C</text>
+<text x="300" y="601.9704277286136" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.14933628318584072)">T</text>
+<text x="320" y="19.598704902867716" fill="red" font-size="30" font-family="Courier" transform="scale(1, 2.006475485661425)">T</text>
+<text x="320" y="42.82762056551832" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 1.7275670675300647)">C</text>
+<text x="320" y="137.62502069234142" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.6327474560592045)">A</text>
+<text x="320" y="675.2237049028677" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.1332099907493062)">G</text>
+<text x="340" y="19.610746003552396" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 1.9462699822380107)">C</text>
+<text x="340" y="47.76103502089344" fill="red" font-size="30" font-family="Courier" transform="scale(1, 1.382770870337478)">T</text>
+<text x="340" y="96.74037563318203" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.8632326820603907)">A</text>
+<text x="340" y="292.0782784710849" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.30772646536412074)">G</text>
+</g>
+    </g>
+    <text x="10" y="0" font-size="24" font-family="Courier" fill="black">TAAACAC -> NDCWWGYCYNDACWHGHH</text>
+<text x="728.0" y="20" font-size="20" font-family="Courier" text-anchor="middle" fill="black">Seed</text>
+<text x="1000.0" y="20" font-size="20" font-family="Courier" text-anchor="middle" fill="black">Background</text>
+<text x="1188.0" y="20" font-size="20" font-family="Courier" text-anchor="middle" fill="black">Signal</text>
+<text x="560.0" y="45" font-size="20" font-family="Courier" text-anchor="start" fill="black">Original: TAAACAC</text>
+<text x="1084.0" y="45" font-size="20" font-family="Courier" text-anchor="end" fill="black">16049 (31.60%)</text>
+<text x="1272.0" y="45" font-size="20" font-family="Courier" text-anchor="end" fill="black">19272 (37.95%)</text>
+<text x="560.0" y="70" font-size="20" font-family="Courier" text-anchor="start" fill="black">Refined : NDCWWGYCYNDACWHGHH</text>
+<text x="1084.0" y="70" font-size="20" font-family="Courier" text-anchor="end" fill="black">457 (0.90%)</text>
+<text x="1272.0" y="70" font-size="20" font-family="Courier" text-anchor="end" fill="black">4450 (8.76%)</text>
+    <text x="10" y="105" font-size="16" font-family="Courier" fill="gray">refined_model_4_for_seed_TAAACAC.pfm</text>
+  </g>
+  <g transform="translate(10, 320)">
+    <g transform="translate(0, 0)">
+<title>Sequence Logo</title>
+<g id="group0" transform="translate(0, 0)" >
+<text x="0" y="19.698286693318103" fill="green" font-size="30" font-family="Courier" transform="scale(1, 1.5085665334094802)">A</text>
+<text x="0" y="46.38010487513629" fill="red" font-size="30" font-family="Courier" transform="scale(1, 1.130782410051399)">T</text>
+<text x="0" y="72.7732220938349" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 0.9945745288406624)">C</text>
+<text x="0" y="103.61520063990564" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.866076527698458)">G</text>
+<text x="20" y="19.714447592067987" fill="green" font-size="30" font-family="Courier" transform="scale(1, 1.4277620396600565)">A</text>
+<text x="20" y="41.76169168655618" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 1.295184135977337)">C</text>
+<text x="20" y="78.39576627338667" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.9280453257790368)">G</text>
+<text x="20" y="105.72045359807399" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.8490084985835694)">T</text>
+<text x="40" y="19.52638640429338" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 2.368067978533095)">C</text>
+<text x="40" y="60.62068209695928" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 1.152504472271914)">G</text>
+<text x="40" y="113.24067211857908" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.7513416815742398)">A</text>
+<text x="40" y="394.114621698411" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.22808586762075134)">T</text>
+<text x="60" y="19.32776132035548" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 3.361193398222598)">C</text>
+<text x="60" y="87.0820799383977" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.9921709691070674)">A</text>
+<text x="60" y="613.0939950865894" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.1466356326703343)">G</text>
+<text x="80" y="19.1" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 4.5)">G</text>
+<text x="100" y="19.14780042918455" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 4.260997854077253)">G</text>
+<text x="100" y="471.7119029932871" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.18830472103004292)">T</text>
+<text x="100" y="2322.8978004291844" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 0.03862660944206009)">C</text>
+<text x="100" y="7455.147800429185" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.012070815450643776)">A</text>
+<text x="120" y="19.11602671118531" fill="green" font-size="30" font-family="Courier" transform="scale(1, 4.419866444073456)">A</text>
+<text x="120" y="1122.2410267111852" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.08013355592654424)">T</text>
+<text x="140" y="19.346027171675587" fill="green" font-size="30" font-family="Courier" transform="scale(1, 3.2698641416220666)">A</text>
+<text x="140" y="95.58792781962374" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.8577603952243722)">T</text>
+<text x="140" y="241.0375694602328" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 0.3723754631535611)">C</text>
+<text x="160" y="19.54679029957204" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 2.2660485021398005)">G</text>
+<text x="160" y="49.03718294785942" fill="green" font-size="30" font-family="Courier" transform="scale(1, 1.5368045649072755)">A</text>
+<text x="160" y="150.3194172311394" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 0.5815977175463624)">C</text>
+<text x="160" y="778.435679188461" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.11554921540656204)">T</text>
+<text x="180" y="19.53293149073802" fill="red" font-size="30" font-family="Courier" transform="scale(1, 2.335342546309909)">T</text>
+<text x="180" y="63.221050302619204" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 1.0690973243163775)">C</text>
+<text x="180" y="119.64966300824777" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.6800940899735372)">A</text>
+<text x="180" y="216.1571353123941" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.4154660394001764)">G</text>
+<text x="200" y="19.71699716713881" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 1.415014164305949)">G</text>
+<text x="200" y="44.00583742972086" fill="green" font-size="30" font-family="Courier" transform="scale(1, 1.1651558073654391)">A</text>
+<text x="200" y="70.19081262848545" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 1.0223796033994335)">C</text>
+<text x="200" y="100.00108807622973" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.8974504249291784)">T</text>
+<text x="220" y="19.740453257790367" fill="green" font-size="30" font-family="Courier" transform="scale(1, 1.2977337110481586)">A</text>
+<text x="220" y="42.413059048436246" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 1.1447592067988668)">C</text>
+<text x="220" y="63.38510018261952" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 1.1192634560906516)">G</text>
+<text x="220" y="95.66436630126861" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.9382436260623229)">T</text>
+</g>
+    </g>
+    <text x="10" y="0" font-size="24" font-family="Courier" fill="black">CCGGAAGTG -> NNCCGGAAGTNN</text>
+<text x="692.0" y="20" font-size="20" font-family="Courier" text-anchor="middle" fill="black">Seed</text>
+<text x="916.0" y="20" font-size="20" font-family="Courier" text-anchor="middle" fill="black">Background</text>
+<text x="1092.0" y="20" font-size="20" font-family="Courier" text-anchor="middle" fill="black">Signal</text>
+<text x="560.0" y="45" font-size="20" font-family="Courier" text-anchor="start" fill="black">Original: CCGGAAGTG</text>
+<text x="988.0" y="45" font-size="20" font-family="Courier" text-anchor="end" fill="black">1064 (2.10%)</text>
+<text x="1176.0" y="45" font-size="20" font-family="Courier" text-anchor="end" fill="black">5177 (10.19%)</text>
+<text x="560.0" y="70" font-size="20" font-family="Courier" text-anchor="start" fill="black">Refined : NNCCGGAAGTNN</text>
+<text x="988.0" y="70" font-size="20" font-family="Courier" text-anchor="end" fill="black">3500 (6.89%)</text>
+<text x="1176.0" y="70" font-size="20" font-family="Courier" text-anchor="end" fill="black">11464 (22.57%)</text>
+    <text x="10" y="105" font-size="16" font-family="Courier" fill="gray">refined_model_6_for_seed_CCGGAAGTG.pfm</text>
+  </g>
+  <g transform="translate(10, 470)">
+    <g transform="translate(0, 0)">
+<title>Sequence Logo</title>
+<g id="group0" transform="translate(0, 0)" >
+<text x="0" y="19.75281690140845" fill="red" font-size="30" font-family="Courier" transform="scale(1, 1.2359154929577465)">T</text>
+<text x="0" y="40.012557161148706" fill="green" font-size="30" font-family="Courier" transform="scale(1, 1.2200704225352115)">A</text>
+<text x="0" y="63.10946025805182" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 1.1329225352112675)">C</text>
+<text x="0" y="98.53542559706062" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.9110915492957747)">G</text>
+<text x="20" y="19.63599257884972" fill="green" font-size="30" font-family="Courier" transform="scale(1, 1.8200371057513915)">A</text>
+<text x="20" y="53.17445411731126" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 1.0853432282003712)">C</text>
+<text x="20" y="85.2963699373403" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.8849721706864564)">G</text>
+<text x="20" y="126.45952199061443" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.7096474953617811)">T</text>
+<text x="40" y="19.64391304347826" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 1.7804347826086957)">C</text>
+<text x="40" y="57.24721882860223" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.9469565217391305)">T</text>
+<text x="40" y="81.05360467343421" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.8882608695652174)">A</text>
+<text x="40" y="101.41382454790305" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.8843478260869565)">G</text>
+<text x="60" y="19.56140350877193" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 2.1929824561403506)">G</text>
+<text x="60" y="63.8091911193914" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 0.9912280701754386)">C</text>
+<text x="60" y="99.34162328899171" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.7982456140350876)">T</text>
+<text x="60" y="173.4597085935177" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.5175438596491228)">A</text>
+<text x="80" y="19.72736660929432" fill="red" font-size="30" font-family="Courier" transform="scale(1, 1.3631669535283992)">T</text>
+<text x="80" y="43.67294484058684" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 1.1385542168674698)">C</text>
+<text x="80" y="69.04034370853095" fill="green" font-size="30" font-family="Courier" transform="scale(1, 1.0146299483648882)">A</text>
+<text x="80" y="91.2234296014203" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.9836488812392428)">G</text>
+<text x="100" y="19.614497528830313" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 1.9275123558484348)">C</text>
+<text x="100" y="53.825023844619786" fill="red" font-size="30" font-family="Courier" transform="scale(1, 1.126853377265239)">T</text>
+<text x="100" y="102.84682076115354" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.7339373970345964)">G</text>
+<text x="100" y="126.07283086216364" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.7116968698517298)">A</text>
+<text x="120" y="19.63664596273292" fill="green" font-size="30" font-family="Courier" transform="scale(1, 1.8167701863354035)">A</text>
+<text x="120" y="56.182830701688744" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 0.9942324755989352)">C</text>
+<text x="120" y="82.49378881987577" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.8944099378881987)">G</text>
+<text x="120" y="112.90297762102436" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.7945874001774623)">T</text>
+<text x="140" y="19.636974789915968" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 1.815126050420168)">C</text>
+<text x="140" y="54.33576997063886" fill="red" font-size="30" font-family="Courier" transform="scale(1, 1.046218487394958)">T</text>
+<text x="140" y="87.90765148164529" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.8382352941176471)">G</text>
+<text x="140" y="112.07791967180573" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.8004201680672269)">A</text>
+<text x="160" y="19.68480176211454" fill="red" font-size="30" font-family="Courier" transform="scale(1, 1.5759911894273129)">T</text>
+<text x="160" y="49.68480176211454" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 1.050660792951542)">G</text>
+<text x="160" y="73.76643441517575" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 0.9713656387665199)">C</text>
+<text x="160" y="99.46502154233431" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.9019823788546255)">A</text>
+<text x="180" y="19.612885662431943" fill="red" font-size="30" font-family="Courier" transform="scale(1, 1.9355716878402904)">T</text>
+<text x="180" y="52.75973880928509" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 1.1678765880217787)">C</text>
+<text x="180" y="98.7795523290986" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.7840290381125227)">G</text>
+<text x="180" y="146.5462189957653" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.6125226860254083)">A</text>
+<text x="200" y="19.519747899159665" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 2.4012605042016806)">C</text>
+<text x="200" y="54.55423065778035" fill="green" font-size="30" font-family="Courier" transform="scale(1, 1.3707983193277309)">A</text>
+<text x="200" y="162.01974789915965" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.5294117647058824)">G</text>
+<text x="200" y="452.85308123249297" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.1985294117647059)">T</text>
+<text x="220" y="19.25273722627737" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 3.7363138686131387)">C</text>
+<text x="220" y="117.10219959186878" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.7636861313868613)">T</text>
+<text x="240" y="19.60662824207493" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 1.9668587896253604)">G</text>
+<text x="240" y="51.203850464297155" fill="red" font-size="30" font-family="Courier" transform="scale(1, 1.244956772334294)">T</text>
+<text x="240" y="78.34180610768759" fill="green" font-size="30" font-family="Courier" transform="scale(1, 1.0936599423631124)">A</text>
+<text x="240" y="462.27329490874166" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 0.19452449567723343)">C</text>
+<text x="260" y="19.678823529411765" fill="red" font-size="30" font-family="Courier" transform="scale(1, 1.6058823529411765)">T</text>
+<text x="260" y="41.553823529411765" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 1.468235294117647)">C</text>
+<text x="260" y="75.51215686274509" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 1.1011764705882354)">G</text>
+<text x="260" y="276.85273657289" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.3247058823529412)">A</text>
+<text x="280" y="19.756703296703297" fill="green" font-size="30" font-family="Courier" transform="scale(1, 1.2164835164835164)">A</text>
+<text x="280" y="40.2567032967033" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 1.1868131868131868)">C</text>
+<text x="280" y="61.29516483516484" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 1.157142857142857)">G</text>
+<text x="280" y="95.54617698091383" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.9395604395604396)">T</text>
+<text x="300" y="19.682459677419356" fill="green" font-size="30" font-family="Courier" transform="scale(1, 1.587701612903226)">A</text>
+<text x="300" y="44.330347001363016" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 1.2883064516129032)">C</text>
+<text x="300" y="65.95983194019308" fill="red" font-size="30" font-family="Courier" transform="scale(1, 1.2429435483870968)">T</text>
+<text x="300" y="235.8729358678956" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.3810483870967742)">G</text>
+</g>
+    </g>
+    <text x="10" y="0" font-size="24" font-family="Courier" fill="black">ACGTnnnnnACGT -> NNAYGNCACNTCCGBN</text>
+<text x="716.0" y="20" font-size="20" font-family="Courier" text-anchor="middle" fill="black">Seed</text>
+<text x="976.0" y="20" font-size="20" font-family="Courier" text-anchor="middle" fill="black">Background</text>
+<text x="1164.0" y="20" font-size="20" font-family="Courier" text-anchor="middle" fill="black">Signal</text>
+<text x="560.0" y="45" font-size="20" font-family="Courier" text-anchor="start" fill="black">Original: ACGTnnnnnACGT</text>
+<text x="1060.0" y="45" font-size="20" font-family="Courier" text-anchor="end" fill="black">2334 (4.60%)</text>
+<text x="1248.0" y="45" font-size="20" font-family="Courier" text-anchor="end" fill="black">4978 (9.80%)</text>
+<text x="560.0" y="70" font-size="20" font-family="Courier" text-anchor="start" fill="black">Refined : NNAYGNCACNTCCGBN</text>
+<text x="1060.0" y="70" font-size="20" font-family="Courier" text-anchor="end" fill="black">12268 (24.16%)</text>
+<text x="1248.0" y="70" font-size="20" font-family="Courier" text-anchor="end" fill="black">16330 (32.15%)</text>
+    <text x="10" y="105" font-size="16" font-family="Courier" fill="gray">refined_model_9_for_seed_ACGTnnnnnACGT.pfm</text>
+  </g>
+  <g transform="translate(10, 620)">
+    <g transform="translate(0, 0)">
+<title>Sequence Logo</title>
+<g id="group0" transform="translate(0, 0)" >
+<text x="0" y="19.688394584139264" fill="green" font-size="30" font-family="Courier" transform="scale(1, 1.558027079303675)">A</text>
+<text x="0" y="48.91288438005764" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 1.066247582205029)">C</text>
+<text x="0" y="72.35215004265454" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.996615087040619)">G</text>
+<text x="0" y="102.06463220790164" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.879110251450677)">T</text>
+<text x="20" y="19.700869565217392" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 1.4956521739130435)">C</text>
+<text x="20" y="47.8975908766928" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 1.0608695652173912)">G</text>
+<text x="20" y="68.90589048571948" fill="red" font-size="30" font-family="Courier" transform="scale(1, 1.0391304347826087)">T</text>
+<text x="20" y="99.22010033444816" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.9043478260869565)">A</text>
+<text x="40" y="19.574657534246576" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 2.1267123287671232)">C</text>
+<text x="40" y="67.7141924179675" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.8835616438356164)">G</text>
+<text x="40" y="91.38838302444263" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.8383561643835618)">A</text>
+<text x="40" y="137.74500453740114" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.6513698630136986)">T</text>
+<text x="60" y="19.37441235728677" fill="green" font-size="30" font-family="Courier" transform="scale(1, 3.1279382135661518)">A</text>
+<text x="60" y="121.84965988203925" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.6104768300873069)">T</text>
+<text x="60" y="155.30847829135269" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.5500335795836131)">G</text>
+<text x="60" y="424.8029837858581" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 0.21155137676292815)">C</text>
+<text x="80" y="19.289473684210527" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 3.5526315789473686)">C</text>
+<text x="80" y="94.28947368421052" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.9473684210526315)">T</text>
+<text x="100" y="19.43716012084592" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 2.814199395770393)">G</text>
+<text x="100" y="54.344411385601404" fill="green" font-size="30" font-family="Courier" transform="scale(1, 1.6123867069486404)">A</text>
+<text x="100" y="1225.3630860467717" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 0.07341389728096677)">C</text>
+<text x="120" y="19.335592011412267" fill="red" font-size="30" font-family="Courier" transform="scale(1, 3.322039942938659)">T</text>
+<text x="120" y="104.17165758518277" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 0.7831669044222539)">C</text>
+<text x="120" y="227.303071686209" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.39479315263908704)">A</text>
+<text x="140" y="19.55832147937411" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 2.208392603129445)">G</text>
+<text x="140" y="52.105491290694864" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 1.3570412517780939)">C</text>
+<text x="140" y="154.31638599550314" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.5291607396870555)">T</text>
+<text x="140" y="221.55832147937411" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.4054054054054054)">A</text>
+<text x="160" y="19.646786632390747" fill="green" font-size="30" font-family="Courier" transform="scale(1, 1.7660668380462725)">A</text>
+<text x="160" y="49.00576099136511" fill="red" font-size="30" font-family="Courier" transform="scale(1, 1.2030848329048842)">T</text>
+<text x="160" y="77.75999417956056" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 1.0218508997429305)">G</text>
+<text x="160" y="176.4649684505726" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 0.5089974293059125)">C</text>
+<text x="180" y="19.618862520458265" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 1.9056873977086743)">C</text>
+<text x="180" y="46.74861350342026" fill="red" font-size="30" font-family="Courier" transform="scale(1, 1.4048690671031097)">T</text>
+<text x="180" y="116.80805170964746" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.6812602291325696)">A</text>
+<text x="180" y="176.7203117958206" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.5081833060556464)">G</text>
+<text x="200" y="19.723478260869566" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 1.382608695652174)">C</text>
+<text x="200" y="41.80681159420289" fill="red" font-size="30" font-family="Courier" transform="scale(1, 1.2521739130434784)">T</text>
+<text x="200" y="65.11673668783587" fill="green" font-size="30" font-family="Courier" transform="scale(1, 1.1608695652173913)">A</text>
+<text x="200" y="127.50125603864734" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.7043478260869566)">G</text>
+<text x="220" y="19.758260869565216" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 1.2086956521739132)">C</text>
+<text x="220" y="40.27486603561688" fill="red" font-size="30" font-family="Courier" transform="scale(1, 1.1782608695652173)">T</text>
+<text x="220" y="61.8272263868066" fill="green" font-size="30" font-family="Courier" transform="scale(1, 1.134782608695652)">A</text>
+<text x="220" y="91.75826086956522" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.9782608695652174)">G</text>
+</g>
+    </g>
+    <text x="10" y="0" font-size="24" font-family="Courier" fill="black">TCACGTGAC -> NNCACGTGDCNN</text>
+<text x="692.0" y="20" font-size="20" font-family="Courier" text-anchor="middle" fill="black">Seed</text>
+<text x="922.0" y="20" font-size="20" font-family="Courier" text-anchor="middle" fill="black">Background</text>
+<text x="1104.0" y="20" font-size="20" font-family="Courier" text-anchor="middle" fill="black">Signal</text>
+<text x="560.0" y="45" font-size="20" font-family="Courier" text-anchor="start" fill="black">Original: TCACGTGAC</text>
+<text x="1000.0" y="45" font-size="20" font-family="Courier" text-anchor="end" fill="black">1087 (2.14%)</text>
+<text x="1188.0" y="45" font-size="20" font-family="Courier" text-anchor="end" fill="black">2692 (5.30%)</text>
+<text x="560.0" y="70" font-size="20" font-family="Courier" text-anchor="start" fill="black">Refined : NNCACGTGDCNN</text>
+<text x="1000.0" y="70" font-size="20" font-family="Courier" text-anchor="end" fill="black">9824 (19.34%)</text>
+<text x="1188.0" y="70" font-size="20" font-family="Courier" text-anchor="end" fill="black">16054 (31.61%)</text>
+    <text x="10" y="105" font-size="16" font-family="Courier" fill="gray">refined_model_22_for_seed_TCACGTGAC.pfm</text>
+  </g>
+  <g transform="translate(10, 770)">
+    <g transform="translate(0, 0)">
+<title>Sequence Logo</title>
+<g id="group0" transform="translate(0, 0)" >
+<text x="0" y="19.69832402234637" fill="green" font-size="30" font-family="Courier" transform="scale(1, 1.5083798882681563)">A</text>
+<text x="0" y="46.364990689013034" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 1.1312849162011174)">C</text>
+<text x="0" y="72.19832402234637" fill="red" font-size="30" font-family="Courier" transform="scale(1, 1.005586592178771)">T</text>
+<text x="0" y="104.9924416694052" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.8547486033519552)">G</text>
+<text x="20" y="19.71657458563536" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 1.4171270718232043)">C</text>
+<text x="20" y="44.49918328128753" fill="green" font-size="30" font-family="Courier" transform="scale(1, 1.143646408839779)">A</text>
+<text x="20" y="68.76419363325442" fill="red" font-size="30" font-family="Courier" transform="scale(1, 1.0441988950276242)">T</text>
+<text x="20" y="100.27213014119091" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.8950276243093922)">G</text>
+<text x="40" y="19.49876923076923" fill="red" font-size="30" font-family="Courier" transform="scale(1, 2.5061538461538464)">T</text>
+<text x="40" y="60.635132867132874" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 1.2184615384615385)">C</text>
+<text x="40" y="173.21305494505492" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.48461538461538467)">A</text>
+<text x="40" y="309.0225787545788" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.2907692307692308)">G</text>
+<text x="60" y="19.424381625441697" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 2.8780918727915195)">C</text>
+<text x="60" y="68.3433005443606" fill="green" font-size="30" font-family="Courier" transform="scale(1, 1.1766784452296821)">A</text>
+<text x="60" y="262.2815244825846" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.3339222614840989)">G</text>
+<text x="60" y="807.9958101968703" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.11130742049469965)">T</text>
+<text x="80" y="19.43240418118467" fill="red" font-size="30" font-family="Courier" transform="scale(1, 2.837979094076655)">T</text>
+<text x="80" y="86.4694412182217" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 0.8466898954703833)">C</text>
+<text x="80" y="143.11661470750045" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.5958188153310104)">G</text>
+<text x="80" y="409.43240418118467" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.21951219512195122)">A</text>
+<text x="100" y="19.1" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 4.5)">C</text>
+<text x="120" y="19.193564356435644" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 4.032178217821782)">G</text>
+<text x="120" y="260.526897689769" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.3341584158415841)">A</text>
+<text x="120" y="672.526897689769" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 0.13366336633663367)">C</text>
+<text x="140" y="19.168877551020408" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 4.155612244897959)">C</text>
+<text x="140" y="471.66887755102044" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.18367346938775508)">A</text>
+<text x="140" y="559.1688775510205" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.1607142857142857)">T</text>
+<text x="160" y="19.1" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 4.5)">G</text>
+<text x="180" y="19.445918367346938" fill="green" font-size="30" font-family="Courier" transform="scale(1, 2.7704081632653064)">A</text>
+<text x="180" y="94.8625850340136" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.7346938775510203)">G</text>
+<text x="180" y="119.01113575865129" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.7040816326530612)">T</text>
+<text x="180" y="308.91960257787326" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 0.29081632653061223)">C</text>
+<text x="200" y="19.597596153846155" fill="red" font-size="30" font-family="Courier" transform="scale(1, 2.012019230769231)">T</text>
+<text x="200" y="40.733959790209795" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 1.9038461538461537)">G</text>
+<text x="200" y="232.5387726244344" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 0.36778846153846156)">C</text>
+<text x="200" y="415.5975961538461" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.21634615384615385)">A</text>
+<text x="220" y="19.51081081081081" fill="green" font-size="30" font-family="Courier" transform="scale(1, 2.4459459459459456)">A</text>
+<text x="220" y="73.54066155707946" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.9054054054054054)">G</text>
+<text x="220" y="129.73303303303302" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 0.6081081081081081)">C</text>
+<text x="220" y="166.0108108108108" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.5405405405405406)">T</text>
+<text x="240" y="19.726519337016576" fill="red" font-size="30" font-family="Courier" transform="scale(1, 1.367403314917127)">T</text>
+<text x="240" y="45.30791468585378" fill="green" font-size="30" font-family="Courier" transform="scale(1, 1.069060773480663)">A</text>
+<text x="240" y="66.39318600368323" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 1.0441988950276242)">G</text>
+<text x="240" y="88.01920226384583" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 1.0193370165745856)">C</text>
+<text x="260" y="19.675829383886256" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 1.6208530805687205)">C</text>
+<text x="260" y="44.19195841614432" fill="red" font-size="30" font-family="Courier" transform="scale(1, 1.3222748815165877)">T</text>
+<text x="260" y="83.86187589551416" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.9170616113744076)">A</text>
+<text x="260" y="140.34249605055294" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.6398104265402843)">G</text>
+</g>
+    </g>
+    <text x="10" y="0" font-size="24" font-family="Courier" fill="black">TCTCGCGAGA -> NNTCTCGCGAKANH</text>
+<text x="704.0" y="20" font-size="20" font-family="Courier" text-anchor="middle" fill="black">Seed</text>
+<text x="934.0" y="20" font-size="20" font-family="Courier" text-anchor="middle" fill="black">Background</text>
+<text x="1092.0" y="20" font-size="20" font-family="Courier" text-anchor="middle" fill="black">Signal</text>
+<text x="560.0" y="45" font-size="20" font-family="Courier" text-anchor="start" fill="black">Original: TCTCGCGAGA</text>
+<text x="1000.0" y="45" font-size="20" font-family="Courier" text-anchor="end" fill="black">198 (0.39%)</text>
+<text x="1164.0" y="45" font-size="20" font-family="Courier" text-anchor="end" fill="black">826 (1.63%)</text>
+<text x="560.0" y="70" font-size="20" font-family="Courier" text-anchor="start" fill="black">Refined : NNTCTCGCGAKANH</text>
+<text x="1000.0" y="70" font-size="20" font-family="Courier" text-anchor="end" fill="black">379 (0.75%)</text>
+<text x="1164.0" y="70" font-size="20" font-family="Courier" text-anchor="end" fill="black">1243 (2.45%)</text>
+    <text x="10" y="105" font-size="16" font-family="Courier" fill="gray">refined_model_31_for_seed_TCTCGCGAGA.pfm</text>
+  </g>
+  <g transform="translate(10, 920)">
+    <g transform="translate(0, 0)">
+<title>Sequence Logo</title>
+<g id="group0" transform="translate(0, 0)" >
+<text x="0" y="19.625882352941176" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 1.8705882352941177)">C</text>
+<text x="0" y="51.267673397717296" fill="red" font-size="30" font-family="Courier" transform="scale(1, 1.1823529411764706)">T</text>
+<text x="0" y="102.00683473389356" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.7411764705882353)">A</text>
+<text x="0" y="127.12588235294119" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.7058823529411764)">G</text>
+<text x="20" y="19.734562211981565" fill="green" font-size="30" font-family="Courier" transform="scale(1, 1.327188940092166)">A</text>
+<text x="20" y="41.80352772922295" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 1.2027649769585254)">G</text>
+<text x="20" y="69.5304805793285" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 1.0161290322580645)">C</text>
+<text x="20" y="94.0823882989381" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.9539170506912442)">T</text>
+<text x="40" y="19.575757575757574" fill="red" font-size="30" font-family="Courier" transform="scale(1, 2.121212121212121)">T</text>
+<text x="40" y="55.93939393939395" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 1.1666666666666665)">C</text>
+<text x="40" y="125.42941611234295" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.6212121212121212)">A</text>
+<text x="40" y="151.88344988344988" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.5909090909090909)">G</text>
+<text x="60" y="19.41174698795181" fill="red" font-size="30" font-family="Courier" transform="scale(1, 2.941265060240964)">T</text>
+<text x="60" y="99.78211735832217" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.7319277108433735)">A</text>
+<text x="60" y="169.96730254350734" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.4879518072289157)">G</text>
+<text x="60" y="265.01174698795177" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 0.33885542168674704)">C</text>
+<text x="80" y="19.243023255813952" fill="red" font-size="30" font-family="Courier" transform="scale(1, 3.7848837209302326)">T</text>
+<text x="80" y="168.89819566960705" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.5058139534883721)">G</text>
+<text x="80" y="565.9096899224805" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.1569767441860465)">A</text>
+<text x="80" y="1719.243023255814" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 0.05232558139534883)">C</text>
+<text x="100" y="19.3402027027027" fill="red" font-size="30" font-family="Courier" transform="scale(1, 3.2989864864864864)">T</text>
+<text x="100" y="104.43824191838897" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 0.7753378378378378)">C</text>
+<text x="100" y="210.7687741312741" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.4256756756756757)">A</text>
+<text x="120" y="19.326551724137932" fill="green" font-size="30" font-family="Courier" transform="scale(1, 3.367241379310345)">A</text>
+<text x="120" y="83.15008113590265" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 1.0551724137931033)">G</text>
+<text x="120" y="1159.326551724138" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 0.07758620689655173)">C</text>
+<text x="140" y="19.172457627118643" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 4.137711864406779)">C</text>
+<text x="140" y="413.7179121725732" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.2097457627118644)">T</text>
+<text x="140" y="589.1724576271187" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.15254237288135594)">A</text>
+<text x="160" y="19.309893992932864" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 3.450530035335689)">G</text>
+<text x="160" y="143.30989399293287" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.5565371024734983)">A</text>
+<text x="160" y="334.3098939929329" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 0.254416961130742)">C</text>
+<text x="160" y="376.6432273262662" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.23851590106007067)">T</text>
+<text x="180" y="19.492727272727272" fill="green" font-size="30" font-family="Courier" transform="scale(1, 2.536363636363636)">A</text>
+<text x="180" y="86.26195804195805" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.7597402597402597)">G</text>
+<text x="180" y="110.46046920821114" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.7246753246753247)">T</text>
+<text x="180" y="187.29760532150775" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 0.4792207792207792)">C</text>
+<text x="200" y="19.234117647058824" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 3.829411764705882)">C</text>
+<text x="200" y="154.85911764705878" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.5647058823529412)">T</text>
+<text x="200" y="849.2341176470588" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.10588235294117647)">G</text>
+<text x="220" y="19.51175" fill="green" font-size="30" font-family="Courier" transform="scale(1, 2.44125)">A</text>
+<text x="220" y="78.16039864864865" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.8325)">G</text>
+<text x="220" y="109.05021153846153" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.7312500000000001)">T</text>
+<text x="220" y="181.32993181818182" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 0.495)">C</text>
+<text x="240" y="19.734562211981565" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 1.327188940092166)">C</text>
+<text x="240" y="43.43826591568528" fill="red" font-size="30" font-family="Courier" transform="scale(1, 1.119815668202765)">T</text>
+<text x="240" y="66.00907201590314" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 1.0576036866359448)">G</text>
+<text x="240" y="90.15122887864823" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.9953917050691244)">A</text>
+<text x="260" y="19.58110599078341" fill="red" font-size="30" font-family="Courier" transform="scale(1, 2.0944700460829493)">T</text>
+<text x="260" y="56.98851339819082" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 1.119815668202765)">C</text>
+<text x="260" y="113.52049993017732" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.6843317972350231)">G</text>
+<text x="260" y="149.2362784045765" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.6013824884792627)">A</text>
+</g>
+    </g>
+    <text x="10" y="0" font-size="24" font-family="Courier" fill="black">TTTTACGACA -> NNYTTTACGACANYNN</text>
+<text x="716.0" y="20" font-size="20" font-family="Courier" text-anchor="middle" fill="black">Seed</text>
+<text x="958.0" y="20" font-size="20" font-family="Courier" text-anchor="middle" fill="black">Background</text>
+<text x="1116.0" y="20" font-size="20" font-family="Courier" text-anchor="middle" fill="black">Signal</text>
+<text x="560.0" y="45" font-size="20" font-family="Courier" text-anchor="start" fill="black">Original: TTTTACGACA</text>
+<text x="1024.0" y="45" font-size="20" font-family="Courier" text-anchor="end" fill="black">288 (0.57%)</text>
+<text x="1188.0" y="45" font-size="20" font-family="Courier" text-anchor="end" fill="black">1194 (2.35%)</text>
+<text x="560.0" y="70" font-size="20" font-family="Courier" text-anchor="start" fill="black">Refined : NNYTTTACGACANYNN</text>
+<text x="1024.0" y="70" font-size="20" font-family="Courier" text-anchor="end" fill="black">538 (1.06%)</text>
+<text x="1188.0" y="70" font-size="20" font-family="Courier" text-anchor="end" fill="black">1842 (3.63%)</text>
+    <text x="10" y="105" font-size="16" font-family="Courier" fill="gray">refined_model_37_for_seed_TTTTACGACA.pfm</text>
+  </g>
+  <g transform="translate(10, 1070)">
+    <g transform="translate(0, 0)">
+<title>Sequence Logo</title>
+<g id="group0" transform="translate(0, 0)" >
+<text x="0" y="19.737078651685394" fill="green" font-size="30" font-family="Courier" transform="scale(1, 1.3146067415730336)">A</text>
+<text x="0" y="43.020660741237634" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 1.1292134831460674)">C</text>
+<text x="0" y="64.35246326707001" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 1.0955056179775282)">G</text>
+<text x="0" y="93.42128917800117" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.9606741573033708)">T</text>
+<text x="20" y="19.62619808306709" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 1.8690095846645367)">G</text>
+<text x="20" y="53.83672439885657" fill="red" font-size="30" font-family="Courier" transform="scale(1, 1.0926517571884984)">T</text>
+<text x="20" y="81.11873539649991" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.963258785942492)">A</text>
+<text x="20" y="156.1261980830671" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 0.5750798722044728)">C</text>
+<text x="40" y="19.584966216216216" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 2.075168918918919)">C</text>
+<text x="40" y="63.975210118655255" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.9349662162162161)">A</text>
+<text x="40" y="98.78496621621622" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.7601351351351351)">G</text>
+<text x="40" y="122.91829954954953" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.7297297297297298)">T</text>
+<text x="60" y="19.5302103250478" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 2.3489483747609943)">C</text>
+<text x="60" y="54.530210325047804" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 1.3422562141491396)">G</text>
+<text x="60" y="117.0302103250478" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.7571701720841301)">A</text>
+<text x="60" y="1742.8635436583813" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.05162523900573614)">T</text>
+<text x="80" y="19.335945945945944" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 3.3202702702702704)">G</text>
+<text x="80" y="111.87831882730188" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.7175675675675676)">T</text>
+<text x="80" y="203.78039039039038" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.43783783783783786)">A</text>
+<text x="80" y="3699.335945945946" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 0.024324324324324326)">C</text>
+<text x="100" y="19.20485436893204" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 3.975728155339806)">C</text>
+<text x="100" y="184.65939982347751" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.4805825242718446)">A</text>
+<text x="100" y="2059.2048543689325" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.04368932038834951)">T</text>
+<text x="120" y="19.109782608695653" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 4.451086956521739)">C</text>
+<text x="120" y="1839.109782608696" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.048913043478260865)">A</text>
+<text x="140" y="19.161433447098975" fill="green" font-size="30" font-family="Courier" transform="scale(1, 4.19283276450512)">A</text>
+<text x="140" y="383.161433447099" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 0.2303754266211604)">C</text>
+<text x="140" y="1171.1614334470987" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.07679180887372014)">G</text>
+<text x="160" y="19.116187050359713" fill="red" font-size="30" font-family="Courier" transform="scale(1, 4.419064748201439)">T</text>
+<text x="160" y="1111.11618705036" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.08093525179856115)">G</text>
+<text x="180" y="19.6256" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 1.8719999999999999)">C</text>
+<text x="180" y="46.29226666666667" fill="red" font-size="30" font-family="Courier" transform="scale(1, 1.404)">T</text>
+<text x="180" y="113.76353103448275" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.6960000000000001)">G</text>
+<text x="180" y="170.08014545454543" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.528)">A</text>
+<text x="200" y="19.429930394431555" fill="red" font-size="30" font-family="Courier" transform="scale(1, 2.8503480278422275)">T</text>
+<text x="200" y="80.09659706109824" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.9396751740139211)">A</text>
+<text x="200" y="161.78287157090216" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.5324825986078886)">G</text>
+<text x="200" y="506.4887539238434" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 0.17749419953596288)">C</text>
+<text x="220" y="19.351715039577837" fill="red" font-size="30" font-family="Courier" transform="scale(1, 3.241424802110818)">T</text>
+<text x="220" y="86.75912244698524" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 0.9617414248021108)">C</text>
+<text x="220" y="461.8517150395778" fill="green" font-size="30" font-family="Courier" transform="scale(1, 0.18997361477572558)">A</text>
+<text x="220" y="841.5739372618" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.10686015831134564)">G</text>
+<text x="240" y="19.70989010989011" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 1.4505494505494507)">G</text>
+<text x="240" y="47.20989010989011" fill="green" font-size="30" font-family="Courier" transform="scale(1, 1.054945054945055)">A</text>
+<text x="240" y="67.96385836385836" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 1.0384615384615385)">C</text>
+<text x="240" y="93.84782114437289" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.956043956043956)">T</text>
+<text x="260" y="19.723076923076924" fill="blue" font-size="30" font-family="Courier" transform="scale(1, 1.3846153846153846)">C</text>
+<text x="260" y="43.723076923076924" fill="green" font-size="30" font-family="Courier" transform="scale(1, 1.1538461538461537)">A</text>
+<text x="260" y="71.05641025641025" fill="orange" font-size="30" font-family="Courier" transform="scale(1, 0.989010989010989)">G</text>
+<text x="260" y="92.26544980443283" fill="red" font-size="30" font-family="Courier" transform="scale(1, 0.9725274725274726)">T</text>
+</g>
+    </g>
+    <text x="10" y="0" font-size="24" font-family="Courier" fill="black">CCGCCATCTT -> NDCCGCCATYTTNN</text>
+<text x="704.0" y="20" font-size="20" font-family="Courier" text-anchor="middle" fill="black">Seed</text>
+<text x="934.0" y="20" font-size="20" font-family="Courier" text-anchor="middle" fill="black">Background</text>
+<text x="1092.0" y="20" font-size="20" font-family="Courier" text-anchor="middle" fill="black">Signal</text>
+<text x="560.0" y="45" font-size="20" font-family="Courier" text-anchor="start" fill="black">Original: CCGCCATCTT</text>
+<text x="1000.0" y="45" font-size="20" font-family="Courier" text-anchor="end" fill="black">453 (0.89%)</text>
+<text x="1164.0" y="45" font-size="20" font-family="Courier" text-anchor="end" fill="black">1428 (2.81%)</text>
+<text x="560.0" y="70" font-size="20" font-family="Courier" text-anchor="start" fill="black">Refined : NDCCGCCATYTTNN</text>
+<text x="1000.0" y="70" font-size="20" font-family="Courier" text-anchor="end" fill="black">514 (1.01%)</text>
+<text x="1164.0" y="70" font-size="20" font-family="Courier" text-anchor="end" fill="black">1883 (3.71%)</text>
+    <text x="10" y="105" font-size="16" font-family="Courier" fill="gray">refined_model_42_for_seed_CCGCCATCTT.pfm</text>
+  </g>
+</svg>
