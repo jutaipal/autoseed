@@ -236,22 +236,6 @@ def generate_logo_from_pfm(pfm_file: str, output_file: str = None, title: str = 
     
     svg_logo(pfm_file, output_file, title)
     return f"SVG logo generated: {output_file}"
-
-# Example usage
-if __name__ == "__main__":
-    # Example PFM data
-    example_pfm = """10\t2\t8\t5\t1\t15\t0\t12
-5\t12\t1\t8\t14\t0\t15\t2
-3\t1\t6\t2\t0\t0\t0\t1
-2\t5\t5\t5\t5\t5\t5\t5"""
-    
-    # Save example PFM to file
-    with open('example.pfm', 'w') as f:
-        f.write(example_pfm)
-    
-    # Generate logo
-    result = generate_logo_from_pfm('example.pfm', 'example_logo.svg', 'Example Sequence Logo')
-    print(result)
     
 def parse_localmax_output(output: str) -> List[LocalMaxResult]:
     results = []
