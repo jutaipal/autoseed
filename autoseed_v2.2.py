@@ -7,7 +7,7 @@
 # options: -distill                : generates new sequences with the motifs discovered, runs 10 iterations
 #          -newonly motif_folder   : outputs motifs to specified folder, only adds motifs that are different from already mined ones
 #          -debug                  : debug output
-# example: ./autoseed_v2.2.py 80bpshuffled.seq STARRseq_promoter_80bp.seq  5 8 100 4 100 0.35 1 0.20 -distill
+# example: ./autoseed_v2.2.py 80bpshuffled.seq STARRseq_promoter_80bp.seq 5 8 100 4 100 0.35 1 0.20 -distill
 
 import sys
 import os
@@ -31,6 +31,39 @@ BACKGROUND_PWM = "./80bak.pfm"               # Path to background PWM (position-
 seed_history = []  # Global list for convergence checking
 newonly_mode = False  # Global flag for -newonly mode
 motif_folder = None   # Global folder path for existing motifs
+
+# TF characteristic k-mers and names (kmer, name)
+tf_data = [
+    ("AAAAAA", "NONE"), ("AATCAA", "PBX"), ("ACATGT", "P53"), ("ACCGCA", "RUNX"),
+    ("ACCGGA", "ETSI"), ("AGATAA", "GATA"), ("AGGTCA", "NucRes1"), ("ATCGAT", "CUT"),
+    ("CAACAG", "SCRT"), ("CACCTG", "TCF4"), ("CACGCA", "EGR"), ("CACGTC", "CREB3"),
+    ("CACGTG", "EboxHLH"), ("CACTTA", "NKX"), ("CAGCTG", "NHLH"), ("CATAAA", "HOX9to12"),
+    ("CATATG", "bHLHcat"), ("CATTCC", "TEAD"), ("CATATA", "SRF"), ("CCATTA", "PITX"),
+    ("CCCGCC", "HighE2F"), ("CCCGGA", "ETSII"), ("CCGGAT", "SPDEF"), ("CCGTTA", "MYB"),
+    ("CGAAAC", "IRF"), ("CGTAAA", "HOX13"), ("CTAGTG", "CTCF"), ("CTGTCA", "MEIS"),
+    ("GAAACC", "IRF2"), ("GAACAA", "SOX"), ("GACCAC", "GLI"), ("GACGTC", "cre_bZIP"),
+    ("GAGGAA", "ETSIII"), ("GCCACG", "SP_KLF"), ("GGCAAC", "RFX"), ("GGCGCC", "LowE2F"),
+    ("GGGGAA", "NFKB1"), ("GGTACA", "AR"), ("GGTGTG", "Tbox"), ("GTCACG", "PAX"),
+    ("TAAACA", "FOX"), ("TAATTA", "Homeo"), ("TACGTA", "TEF_GMEB"), ("TATGCA", "POU"),
+    ("TGACAG", "MEIS"), ("TGCATA", "CUT2"), ("TGCCAA", "NFI"), ("TGCGCA", "CEBP"),
+    ("TGCGGG", "GCM"), ("TGCTGA", "MAF"), ("TGGAAA", "NFAT"), ("TTCTAG", "HSF"),
+    ("ATGCCC", "HIC"), ("GTCCGC", "HINFP"), ("GTGAAA", "PRD_IRF"), ("CGCCAT", "YY"),
+    ("TATCGC", "ZBED"), ("CGACCA", "ZBTB7"), ("CGCTGT", "ZIC"), ("ACCCAC", "ZNF143"),
+    ("ACCGGT", "GRHL"), ("CCATGG", "EBF"), ("ATCAAA", "TCF7_LEF"), ("AACGAT", "HOMEZ"),
+    ("TTCGAA", "HSFY"), ("AAATAG", "MEF"), ("TCTAGA", "SMAD3"), ("TGCCCT", "TFAP"),
+    ("CACGCC", "SREBF"), ("GATGCA", "CRE_CEBP"), ("TGACTC", "prebZIP1"), ("TGAGTC", "prebZIP2"),
+    ("TGACAC", "oddFox_a"), ("TCCCCA", "FOXO"), ("TAAACG", "BARHLa"), ("TAATTG", "BARHLb"),
+    ("CAATAA", "HOX9to12b"), ("ACATGA", "IRX"), ("CAAGGT", "ESRR"), ("GTCCAA", "HNF4"),
+    ("AAGTCA", "NRE"), ("AGTTCA", "VDR"), ("GCATGC", "NRF1"), ("TCTCGC", "BANP")
+]
+
+# Extract separate lists for compatibility with existing code
+tf_kmers = [kmer for kmer, name in tf_data]
+tf_names = [name for kmer, name in tf_data]
+
+# DNA encoding
+dnaforward = "ACGTN"
+
 
 @dataclass
 class LocalMaxResult:
@@ -61,6 +94,13 @@ class ExtendedSeedResult:
     confidence: str = ""
     is_localmax: bool = True
 
+class OrientedMatch:
+    def __init__(self):
+        self.position = 0
+        self.strand = 0
+        self.score = 0.0
+        self.id = 0
+        
 def read_pfm(filename: str) -> np.ndarray:
     """Read a PFM file with tab-separated counts for A, C, G, T in rows."""
     with open(filename, 'r') as f:
@@ -449,12 +489,135 @@ def seeds_converged(old_seed: str, new_seed: str) -> bool:
     seed_history.append(old_seed)
     return False
 
+def generate_sequence_value(searchstring):
+    """Convert DNA sequence to numerical representation"""
+    query_sequence_length = len(searchstring)
+    query_sequence_value = 0
+    position_value = 4 ** (query_sequence_length - 1)
+    
+    for position in range(query_sequence_length):
+        nucleotide_value = 0
+        for nuc_idx in range(4):
+            if searchstring[position] == dnaforward[nuc_idx]:
+                nucleotide_value = nuc_idx
+                break
+        else:
+            raise ValueError(f"Invalid nucleotide in sequence: {searchstring[position]}")
+        
+        query_sequence_value += position_value * nucleotide_value
+        position_value //= 4
+    
+    return query_sequence_value
+
+def kmer_pos_and_score(pwm, pwm_width, kmer_sequence_value, kmer_length, o, o2):
+    """Find best and second best score and position for kmer in PWM"""
+    best_score = -100.0
+    second_best_score = -100.0
+    
+    # Generate reverse complement
+    reverse_complement_kmer_sequence_value = 0
+    current_kmer_sequence_value = kmer_sequence_value
+    
+    for counter in range(kmer_length):
+        reverse_complement_kmer_sequence_value <<= 2
+        reverse_complement_kmer_sequence_value |= (3 ^ (current_kmer_sequence_value & 3))
+        current_kmer_sequence_value >>= 2
+    
+    # Scan all positions
+    for pwm_position in range(pwm_width - kmer_length + 1):
+        current_position = pwm_position + kmer_length - 1  # Convert to rightmost position
+        
+        score = 0.0
+        revscore = 0.0
+        current_kmer_sequence_value = kmer_sequence_value
+        current_reverse_complement_kmer_sequence_value = reverse_complement_kmer_sequence_value
+        
+        for kmer_position in range(kmer_length):
+            nucleotide = current_kmer_sequence_value & 3
+            rev_nucleotide = current_reverse_complement_kmer_sequence_value & 3
+            
+            score += pwm[nucleotide][current_position - kmer_position]
+            revscore += pwm[rev_nucleotide][current_position - kmer_position]
+            
+            current_kmer_sequence_value >>= 2
+            current_reverse_complement_kmer_sequence_value >>= 2
+        
+        current_strand = 1
+        if revscore == score:
+            current_strand = 0
+        if revscore > score:
+            score = revscore
+            current_strand = -1
+        
+        if score >= best_score:
+            second_best_score = best_score
+            best_score = score
+            o2.position = o.position
+            o2.strand = o.strand
+            o.position = pwm_position  # Store leftmost position (0-indexed)
+            o.strand = current_strand
+        elif score >= second_best_score:
+            second_best_score = score
+            o2.position = pwm_position  # Store leftmost position (0-indexed)
+            o2.strand = current_strand
+    
+    o.score = best_score
+    o2.score = second_best_score
+    return 0
+
+def best_characteristic_kmer_match_to_pwm(pwm_matrix):
+    """Find best TF match for a PWM matrix"""
+    pwm = pwm_matrix
+    pwm_width = len(pwm[0])
+    kmer_length = len(tf_kmers[0])
+    
+    # Initialize TF kmer sequence values
+    number_of_tf_kmers = len(tf_kmers)
+    tf_kmer_values = []
+    
+    for counter in range(number_of_tf_kmers):
+        tf_kmer_values.append(generate_sequence_value(tf_kmers[counter]))
+    
+    # Create match results
+    matches = []
+    for current_kmer_number in range(number_of_tf_kmers):
+        match1 = OrientedMatch()
+        match2 = OrientedMatch()
+        match1.id = current_kmer_number
+        match2.id = current_kmer_number
+        
+        kmer_pos_and_score(pwm, pwm_width, tf_kmer_values[current_kmer_number],
+                          kmer_length, match1, match2)
+        
+        matches.append(match1)
+        matches.append(match2)
+    
+    # Sort by score (descending)
+    matches.sort(key=lambda x: x.score, reverse=True)
+    
+    # Return best match
+    best_match = matches[0]
+    return {
+        'tf_name': tf_names[best_match.id],
+        'kmer': tf_kmers[best_match.id],
+        'strand': 'top' if best_match.strand == 1 else ('bottom' if best_match.strand == -1 else 'both'),
+        'position': best_match.position + 1,  # Convert to 1-indexed
+        'score': best_match.score
+    }
+
+def predict_tf_from_pfm(pfm_file):
+    """Load PFM file and predict TF"""
+    try:
+        counts = read_pfm(pfm_file)
+        pwm = normalize_pfm_to_pwm(counts)
+        return best_characteristic_kmer_match_to_pwm(pwm)
+    except Exception as e:
+        print(f"Error predicting TF from {pfm_file}: {e}")
+        return None
+
 def create_merged_svg(final_seeds, seed_counts, iteration):
-    """Create merged SVG with a table showing seeds, counts and percentages:
-                        Seed              Background                Signal
-       Original     CAAC (seed1)       100 (0.33%)           2000 (0.33%)
-       Refined      TCAACC (seed2)      82 (0.25%)           3200 (0.45%)
-    """
+    """Create merged SVG with TF predictions shown as arrows with labels above logos"""
+    
     def get_text_width(text: str, font_size: int, font_family: str = "Courier") -> int:
         """Estimate text width in pixels. For monospace fonts only."""
         if font_family == "Courier":
@@ -528,17 +691,19 @@ def create_merged_svg(final_seeds, seed_counts, iteration):
         
         return "\n".join(svg)
 
-    # Font settings
+# Font settings
     title_font_size = 24
     table_font_size = 20
     filename_font_size = 16
+    tf_label_font_size = 16
     font_family = "Courier"
     title_color = "black"
     table_color = "black"
     filename_color = "gray"
+    tf_color = "black"
 
     # Vertical spacing and dimensions
-    initial_offset = 20     # Start 20 points lower
+    initial_offset = 50     # More space at top for TF labels
     logo_height = 120       # Height for each motif logo
     extra_spacing = 30      # Additional space between motif groups
     group_height = logo_height + extra_spacing
@@ -549,9 +714,9 @@ def create_merged_svg(final_seeds, seed_counts, iteration):
     table_position = 550    # Where table text begins
     
     # Vertical positioning within each group
-    title_offset = 0        # Distance from group top to title
-    header_offset = 20      # Distance from group top to table header
-    filename_offset = logo_height-15  # Distance from group top to filename
+    title_offset = 20       # Distance from group top to title (moved down to make room for TF)
+    header_offset = 40      # Distance from group top to table header (moved down)
+    filename_offset = logo_height + 5  # Distance from group top to filename
 
     # Initialize SVG
     merged_svg_filename = f"merged_logos_{iteration}.svg"
@@ -582,6 +747,19 @@ def create_merged_svg(final_seeds, seed_counts, iteration):
         content = re.sub(r'<svg[^>]*>', '', content, flags=re.DOTALL)
         content = re.sub(r'</svg>', '', content, flags=re.DOTALL)
         content = content.strip()
+
+        # Get TF prediction
+        tf_prediction = predict_tf_from_pfm(pfm_filename)
+        if tf_prediction:
+            tf_name = tf_prediction['tf_name']
+            tf_strand = tf_prediction['strand']
+            tf_position = tf_prediction['position']
+            tf_score = tf_prediction['score']
+        else:
+            tf_name = "Unknown"
+            tf_strand = "both"
+            tf_position = 1
+            tf_score = 0.0
 
         # Get statistics
         orig_sig = seed_counts.get(orig_seed, {}).get('signal', 0)
@@ -616,30 +794,45 @@ def create_merged_svg(final_seeds, seed_counts, iteration):
         extra_width = 20
         column_widths = [seed_width + extra_width, bg_width + extra_width, sig_width + extra_width]
 
-        # Format title
-        title_text = f"{orig_seed} -> {refined_seed}"
-
-        # Format data for table
+        # Format data for table (no title text above logos anymore)
         data = [
             ["Seed", "Background", "Signal"],
             [f"Original: {orig_seed}",
              f"{orig_bg} ({orig_bg_pct:.2f}%)",
              f"{orig_sig} ({orig_sig_pct:.2f}%)"],
-            [f"Refined : {refined_seed}",
+            [f"Refined : {refined_seed}",
              f"{refined_bg} ({refined_bg_pct:.2f}%)",
              f"{refined_sig} ({refined_sig_pct:.2f}%)"]
         ]
 
         # Add group to SVG
         merged_svg += f'  <g transform="translate({left_margin}, {current_y})">\n'
-        merged_svg += f'    <g transform="translate(0, 0)">\n{content}\n    </g>\n'
         
-        # Add text elements
-        merged_svg += (
-            f'    <text x="{left_margin}" y="{title_offset}" '
-            f'font-size="{title_font_size}" font-family="{font_family}" '
-            f'fill="{title_color}">{title_text}</text>\n'
-        )
+        # Add TF prediction arrow and label REPLACING the title
+        # Calculate arrow position: k-mer is always 6 bases wide, spans positions tf_position to tf_position+5
+        arrow_left = (tf_position - 1) * 20  # Start of k-mer (0-indexed in pixels)
+        arrow_right = arrow_left + 6 * 20  # End of k-mer (6 bases * 20 pixels each)
+        arrow_y = title_offset-2  # Where the title used to be
+        
+        # Draw arrow line spanning exactly 6 bases
+        merged_svg += f'    <polyline points="{arrow_left},{arrow_y} {arrow_right},{arrow_y}" fill="none" stroke="{tf_color}" stroke-width="2"/>\n'
+        
+        # Draw arrowhead based on strand
+        if tf_strand == "top":
+            # Forward strand arrowhead (pointing right)
+            merged_svg += f'    <polyline points="{arrow_right-4},{arrow_y-3} {arrow_right},{arrow_y} {arrow_right-4},{arrow_y+3}" fill="none" stroke="{tf_color}" stroke-width="2"/>\n'
+        elif tf_strand == "bottom":
+            # Reverse strand arrowhead (pointing left)
+            merged_svg += f'    <polyline points="{arrow_left+4},{arrow_y-3} {arrow_left},{arrow_y} {arrow_left+4},{arrow_y+3}" fill="none" stroke="{tf_color}" stroke-width="2"/>\n'
+        # For "both" strand, no arrowhead
+        
+        # Add TF name label centered above the arrow
+        label_x = (arrow_left + arrow_right) // 2 - len(tf_name) * 5  # Center the text over the arrow
+        label_y = arrow_y - 8  # Above the arrow
+        merged_svg += f'    <text x="{label_x}" y="{label_y}" fill="{tf_color}" font-size="{tf_label_font_size}" font-family="{font_family}" font-style="normal">{tf_name}</text>\n'
+        
+        # Add the logo
+        merged_svg += f'    <g transform="translate(0, 20)">\n{content}\n    </g>\n'
 
         # Add the table
         merged_svg += svg_table(
@@ -656,7 +849,7 @@ def create_merged_svg(final_seeds, seed_counts, iteration):
             alignments=["left", "right", "right"]
         ) + "\n"
 
-        # Add filename
+        # Add filename only (no TF details)
         merged_svg += (
             f'    <text x="{left_margin}" y="{filename_offset}" '
             f'font-size="{filename_font_size}" font-family="{font_family}" '
@@ -675,7 +868,7 @@ def create_merged_svg(final_seeds, seed_counts, iteration):
     if debug:
         print("Merged SVG generated:", merged_svg_filename)
         print(f"Total height: {current_y}")
-
+        
 def check_motif_similarity(pfm1: str, pfm2: str, spacing: int = 6) -> float:
    """Check similarity between two PFM files using motifsimilarity.
    Returns similarity score or 0.0 if error."""
